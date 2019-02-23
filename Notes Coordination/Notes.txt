@@ -4,3 +4,5 @@ FALCONSAT-6
 2 43815  97.7564 126.2049 0014031   9.2546 350.8930 14.95102641 11665
 
 Python library: pyephem
+
+Snapchat API Documentation : https://docs.snapchat.com/
