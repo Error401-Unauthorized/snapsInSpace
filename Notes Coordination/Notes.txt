@@ -6,3 +6,5 @@ FALCONSAT-6
 Python library: pyephem
 
 Snapchat API Documentation : https://docs.snapchat.com/
+
+Example SnapKit usage - https://github.com/HarrisonOg/SnapKitTestApp
