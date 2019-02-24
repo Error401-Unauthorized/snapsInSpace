@@ -4,6 +4,7 @@
     <list default="true" id="71bb9242-d8cb-44ed-aa53-8c482302b796" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/distanceToFS6.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/distanceToFS6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/tle.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/snapsinspace$distanceToFS6.coverage" NAME="distanceToFS6 Coverage Results" MODIFIED="1550991041384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/snapsinspace$distanceToFS6.coverage" NAME="distanceToFS6 Coverage Results" MODIFIED="1550997541827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -33,10 +34,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/distanceToFS6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-484">
-              <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+            <state relative-caret-position="179">
+              <caret line="2167" column="21" selection-start-line="2167" selection-start-column="21" selection-end-line="2167" selection-end-column="21" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#24#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/GenerateStamp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="23" />
+            <state relative-caret-position="527">
+              <caret line="31" lean-forward="true" selection-end-line="94" />
             </state>
           </provider>
         </entry>
@@ -60,13 +61,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/python/distanceToFS6" />
+        <option value="$PROJECT_DIR$/python/GenerateStamp.py" />
         <option value="$PROJECT_DIR$/python/distanceToFS6.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="759" />
+    <option name="width" value="1168" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -145,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550952043672</updated>
-      <workItem from="1550952052688" duration="28964000" />
+      <workItem from="1550952052688" duration="31096000" />
     </task>
     <task id="LOCAL-00001" summary="combined distance and generate stamp">
       <created>1550988961040</created>
@@ -154,14 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550988961040</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Same code but now with 5 most visible planets">
+      <created>1550991719038</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550991719038</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28964000" />
+    <option name="totallyTimeSpent" value="31096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="759" y="0" width="1168" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -192,7 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="combined distance and generate stamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="combined distance and generate stamp" />
+    <MESSAGE value="Same code but now with 5 most visible planets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Same code but now with 5 most visible planets" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/python/distanceToFS6">
@@ -204,17 +214,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/GenerateStamp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-end-line="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/distanceToFS6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+        <state relative-caret-position="179">
+          <caret line="2167" column="21" selection-start-line="2167" selection-start-column="21" selection-end-line="2167" selection-end-column="21" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#24#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
