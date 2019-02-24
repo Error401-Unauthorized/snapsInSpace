@@ -4247,5 +4247,5 @@ def findsat(lat, long, elev):
 
 sats = findsat("40.0150", "-105.2705", 1623)
 print(sats)
- for x in range(5):
-    Generate_Stamp(sats[x][3].strip(), sats[x][1], sats[x][2])
+for x in range(5):
+   Generate_Stamp(sats[x][3].strip(), sats[x][1], sats[x][2])
