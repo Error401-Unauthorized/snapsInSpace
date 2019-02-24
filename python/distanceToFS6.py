@@ -92,7 +92,6 @@ def Generate_Stamp(satellite_name, elevation_degrees, azmith_degrees):
 def findsat(lat, long, elev):
     currentDT = datetime.datetime.utcnow()
     date = currentDT.strftime("%Y-%m-%d %H:%M:%S")
-    list = [[0, 0, 0, ""], [0, 0, 0, ""], [0, 0, 0, ""], [0, 0, 0, ""], [0, 0, 0, ""]]
 
     observer = ephem.Observer()
     observer.lat = lat
@@ -100,6 +99,14 @@ def findsat(lat, long, elev):
     observer.elev = elev  # meters
     observer.date = date
 
+    mercury,venus,mars,jupiter,saturn = ephem.Mercury(), ephem.Venus(), ephem.Mars(), ephem.Jupiter(),ephem.Saturn()
+    mercury.compute(observer)
+    venus.compute(observer)
+    mars.compute(observer)
+    jupiter.compute(observer)
+    saturn.compute(observer)
+
+    list = [[000, mercury.alt, mercury.az, "Mercury"], [000, venus.alt, venus.az, "Venus"], [000, mars.alt, mars.az, "Mars"], [000, jupiter.alt, jupiter.az, "Jupiter"], [000, saturn.alt, saturn.az, "Saturn"]]
     filename = "tle.txt"
     file = open(filename, "r")
     z = 1
@@ -153,7 +160,5 @@ def findsat(lat, long, elev):
 
 
 sats = findsat("40.0150", "-105.2705", 1623)
-print(sats)
-print(sats[0][3])
 for x in range(5):
     Generate_Stamp(sats[x][3].strip(), sats[x][1], sats[x][2])
