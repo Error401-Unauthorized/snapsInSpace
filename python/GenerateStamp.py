@@ -84,7 +84,7 @@ def Generate_Stamp(satellite_name, elevation_degrees, azmith_degrees):
 	# make the two images into one by superimposing
 	out = Image.alpha_composite(base, txt)
 
-	out.save("SatSnapSticker" + ".png")
+	out.save(satellite_name + "_" + str(elevation_degrees) + "_" + str(azmith_degrees) + ".png")
 
 
 satName = "1bigsatbatfo"
