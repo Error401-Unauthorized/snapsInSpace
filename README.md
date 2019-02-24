@@ -1,5 +1,5 @@
 ![App Logo](Images/SNAPstronomer.png)
-hackCU repository for snapchat stickers that include satellites 
+Connecting Social Media and Satellies
 ###### Tom Galligini, Andrew Lemke, Hunter Manter, Addison Whitney
 Thank you for your attempt in downloading the SDK!
 This project is currently in development!
