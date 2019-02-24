@@ -11,19 +11,19 @@ def Generate_Stamp(satellite_name, elevation_degrees, azmith_degrees):
 	
 	#add the font for big text, 2nd param is the font point size
 	leng = len(satellite_name)
-	if (leng < 12):
+	if (leng < 10):
 		fnt = ImageFont.truetype('nasalization-rg.ttf', 220)
 		#print("1")
-	elif (leng >= 12 and leng < 15):
+	elif (leng >= 10 and leng < 12):
 		fnt = ImageFont.truetype('nasalization-rg.ttf', 180)
 		#print("2")
-	elif (leng >= 15 and leng < 17):
+	elif (leng >= 12 and leng < 15):
 		fnt = ImageFont.truetype('nasalization-rg.ttf', 150)
 		#print("3")
-	elif (leng >= 17 and leng < 19):
+	elif (leng >= 15 and leng < 17):
 		fnt = ImageFont.truetype('nasalization-rg.ttf', 130)
 		#print("4")
-	elif (leng >= 19 and leng < 20):
+	elif (leng >= 17 and leng < 19):
 		fnt = ImageFont.truetype('nasalization-rg.ttf', 120)
 		#print("5")
 	else:
@@ -87,7 +87,7 @@ def Generate_Stamp(satellite_name, elevation_degrees, azmith_degrees):
 	out.save(satellite_name + "_" + str(elevation_degrees) + "_" + str(azmith_degrees) + ".png")
 
 
-satName = "1bigsatbatfo"
+satName = "Example Sat"
 satEle = 144.2
 satAzm = 281.7
 
